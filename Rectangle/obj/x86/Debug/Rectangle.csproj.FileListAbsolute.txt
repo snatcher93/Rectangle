@@ -1,0 +1,7 @@
+C:\Users\eternity\AppData\Local\Temporary Projects\Rectangle\bin\Debug\Rectangle.exe
+C:\Users\eternity\AppData\Local\Temporary Projects\Rectangle\bin\Debug\Rectangle.pdb
+C:\Users\eternity\AppData\Local\Temporary Projects\Rectangle\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\eternity\AppData\Local\Temporary Projects\Rectangle\obj\x86\Debug\Rectangle.exe
+C:\Users\eternity\AppData\Local\Temporary Projects\Rectangle\obj\x86\Debug\Rectangle.pdb
+C:\Work\CShartp\Chap2\Rectangle\Rectangle\obj\x86\Debug\Rectangle.exe
+C:\Work\CShartp\Chap2\Rectangle\Rectangle\obj\x86\Debug\Rectangle.pdb
