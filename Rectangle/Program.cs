@@ -37,17 +37,14 @@ namespace Rectangle
 
         public Rectangle() : this(0, 0)
         {
-            Console.WriteLine("Rectangle()");
         }
 
         public Rectangle(int Left, int Top) : this(Left, Top, Left+100, Top+100)
         {
-            Console.WriteLine("Rectangle(int Left, int Top)");
         }
 
         public Rectangle(int Left, int Top, int Right, int Bottom)
         {
-            Console.WriteLine("Rectangle(int Left, int Top. int Top, int Bottom)");
             this.LeftTop = new Point(Left, Top);
             this.RightBottom = new Point(Right, Bottom);
         }
