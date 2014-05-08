@@ -5,3 +5,7 @@ C:\Users\eternity\AppData\Local\Temporary Projects\Rectangle\obj\x86\Debug\Recta
 C:\Users\eternity\AppData\Local\Temporary Projects\Rectangle\obj\x86\Debug\Rectangle.pdb
 C:\Work\CShartp\Chap2\Rectangle\Rectangle\obj\x86\Debug\Rectangle.exe
 C:\Work\CShartp\Chap2\Rectangle\Rectangle\obj\x86\Debug\Rectangle.pdb
+D:\Work\Project\C#\Week10\Rectangle\Rectangle\obj\x86\Debug\Rectangle.exe
+D:\Work\Project\C#\Week10\Rectangle\Rectangle\obj\x86\Debug\Rectangle.pdb
+D:\Work\Project\C#\Week10\Rectangle\Rectangle\bin\Debug\Rectangle.exe
+D:\Work\Project\C#\Week10\Rectangle\Rectangle\bin\Debug\Rectangle.pdb

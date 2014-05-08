@@ -49,7 +49,7 @@ namespace Rectangle
             this.RightBottom = new Point(Right, Bottom);
         }
 
-        public void Show()
+        public virtual void Show()
         {
             Console.WriteLine("left:{0}, top:{1}, width:{2}, height:{3}",
                 LeftTop.GetX(), LeftTop.GetY(),
@@ -62,24 +62,39 @@ namespace Rectangle
             LeftTop.Move(n, m);
             RightBottom.Move(n, m);
         }
+    }
 
+    class Square : Rectangle
+    {
+        private string Color;
+
+        public Square(int Left, int Top, int Width) : base(Left, Top, Left + Width, Top + Width)
+        {
+        }
+
+        public void ChangeColor(string Color)
+        { 
+            this.Color = Color; 
+        }
+
+        public override void Show() 
+        { 
+            Console.WriteLine("This is Square"); 
+            base.Show();
+        }  
     }
 
     class MainClass
     {
         public static void Main(string[] args)
         {
-            Rectangle rect = new Rectangle(10, 10, 50, 50);
-            rect.Show();
+            Rectangle rectangle = new Rectangle(20, 20, 50, 50);
+            rectangle.Show();
 
-            Rectangle rect2 = new Rectangle();
-            rect2.Show();
-
-            Rectangle rect3 = new Rectangle(20, 20);
-            rect3.Show();
+            Square square = new Square(20, 20, 50);
+            square.Show();
 
             Console.ReadLine();
         }
     }
-
 }
